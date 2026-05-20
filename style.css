@@ -1,16 +1,44 @@
+/* Apply basic styling to whole page */
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
     text-align: center;
+}
+
+/* Style main heading */
+h1 {
+    color: #2c3e50;
     margin-top: 50px;
 }
 
-h1 {
-    color: green;
+/* Style paragraph text */
+p {
+    color: #555;
+    font-size: 16px;
 }
 
+/* Style button */
 button {
-    padding: 10px;
-    background: blue;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
     color: white;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Message text */
+#msg {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
 }
